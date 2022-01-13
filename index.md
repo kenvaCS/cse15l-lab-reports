@@ -1,5 +1,5 @@
 # Hey, World!
-[gmail] (https://gmail.com)
+[gmail](https://gmail.com)
 ```
 {
   Testing the use of a code block
