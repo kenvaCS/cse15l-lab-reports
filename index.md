@@ -7,3 +7,12 @@
   This is not a haiku
 }
 ```
+** BOOM **
+* shhhh *
+> Blocked off
+1. First of all
+2. Secondly
+3. Thirdly
+'System.out.println()'
+---
+
