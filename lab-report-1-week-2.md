@@ -78,6 +78,7 @@ The `scp` command allows you to copy code from your local computer to a remote c
 > Afterwards, your login process should no longer contain the password prompt and typing `ssh cs15lwi22auu@ieng6.ucsd.edu` should get your directly in, like in the following screenshot:
 > ![nopwordlogin](loginnopword.PNG)
 >
+
 ### Optimizing Remote Running ### 
 --- 
 Something I'm sure you've noticed is that copying code from your computer to a remote server, logging into the terminal, compiling your code and running it takes a decent amount of time. A decent amount of time that becomes a lot of **wasted** time when you're going through these motions **many, many many** times as you might have to when writing/debugging a program.
