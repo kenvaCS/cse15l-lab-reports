@@ -60,7 +60,7 @@ The `scp` command allows you to copy code from your local computer to a remote c
 - Then, run `javac NameOS.java` and `java NameOS`
 
 > Your terminal should look like the following (though the password step is ominously missing... *ooh foreshadowing*):
-> ![serverterminal](linux.png)
+> ![serverterminal](linux.PNG)
 >
 
 ### Setting an SSH Key ###
@@ -76,7 +76,7 @@ The `scp` command allows you to copy code from your local computer to a remote c
 - On client, run scp `/Users/yourusername/.ssh/id_rsa.pub cs15lwi22auu@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 > Afterwards, your login process should no longer contain the password prompt and typing `ssh cs15lwi22auu@ieng6.ucsd.edu` should get your directly in, like in the following screenshot:
-> ![nopwordlogin](loginnopword.png)
+> ![nopwordlogin](loginnopword.PNG)
 >
 ### Optimizing Remote Running ### 
 --- 
@@ -89,8 +89,8 @@ One way I've come up with to save time running a single file is to do the follow
 - When you want to run your program quickly and see the output, **copy + paste** the first, *enter*, then the second command, *enter*, and it should do the whole process of running the program and logging out for you.
 
 > To demonstrate the utility of this, let's make a change to NameOS.java
-> ![newnameos](newnameos.png)
+> ![newnameos](newnameos.PNG)
 > Then, let's show how easily we can update and run this new program on the server.
-> ![shortcut](shortcut.png)
+> ![shortcut](shortcut.PNG)
 
 As you can see, we can save a lot of time just copy-pasting these commands in! This can be really handy for assignments where you need to fiddle with the code a lot.
