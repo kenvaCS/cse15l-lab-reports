@@ -1,5 +1,5 @@
 # Lab Report Hub
-**Week 2** [Lab Report 1](https://kenvacs.github.io/cse15l-lab-reports/lab-report-1-week-2)
+**Week 2** - [Lab Report 1](https://kenvacs.github.io/cse15l-lab-reports/lab-report-1-week-2)
 ```
 {
   Testing the use of a code block
