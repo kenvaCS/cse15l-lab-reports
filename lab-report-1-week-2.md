@@ -1,1 +1,1 @@
-![githubimagetest](github.jpg)
+![githubimagetest](testscreenshot.png)
