@@ -3,7 +3,8 @@
 ---
 - First, navigate to the [vscode website](https://code.visualstudio.com/)
 - Then, download **vscode** for whatever operating system you're running. (In my case, windows)
->Once installed, open it up. It should look roughly like this:
+
+> Once installed, open it up. It should look roughly like this:
 >
 >![vscodess](vscode.PNG)
 >
