@@ -1,5 +1,6 @@
-# Hey, World!
-[gmail](https://gmail.com)
+# Lab Report Hub
+**Week 2** - [Lab Report 1](https://kenvacs.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+**Week 2 Test** - [Lab Report 1b](lab-report-1-week-2.html)
 ```
 {
   Testing the use of a code block
