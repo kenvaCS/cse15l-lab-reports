@@ -96,7 +96,7 @@ One way I've come up with to save time running a single file is to do the follow
 > ![shortcut](shortcut.PNG)
 
 To run the program, we only need 10 keystrokes:
-1. Select `scp v.java cs15lwi22auu@ieng6.ucsd.edu:~/` from your notepad document
+1. Select `scp NameOS.java cs15lwi22auu@ieng6.ucsd.edu:~/` from your notepad document
 2. Copy the snippet by pressing **CTRL + C** (for windows)
 3. Click into your VSCode terminal
 4. Paste the snippet by pressing **CTRL + V** (for windows)
