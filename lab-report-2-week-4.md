@@ -21,7 +21,7 @@ This was my output from running the base MarkdownParse.java code on this file:
 Recognizing this symptom, we made the following adjustments to our MarkdownParse.java file:
 
 > 
-> ![bugfix1](codechange1.PNG)
+> ![bugfix1](codechange1.png)
 > 
 
 * The **bug** in this case is that the Parser previously recognized anything enclosed in the parantheses of this structure `[]()` as a link. It would thus fail to filter image filenames due to their similar structure `![]()` and include them in the **final output** with links, making image filenames a **failure-inducing input**. Our fix was to discriminate a link from other input by the common `https` header in links. 
@@ -39,7 +39,7 @@ This was my output from running the base MarkdownParse.java code on this file:
 
 We thus made the following adjustments to our parser.
 >
-> ![bugfix2](codechange3.PNG)
+> ![bugfix2](codechange3.png)
 >
 
 
