@@ -21,7 +21,7 @@ This was my output from running the base MarkdownParse.java code on this file:
 Recognizing this symptom, we made the following adjustments to our MarkdownParse.java file:
 
 > 
-> ![bugfix1](codechange1.png)
+> ![bugfix1](codechange1.PNG)
 > 
 
 * The **bug** in this case is that the Parser previously recognized anything enclosed in the parantheses of this structure `[]()` as a link. It would thus fail to filter image filenames due to their similar structure `![]()` and include them in the **final output** with links, making image filenames a **failure-inducing input**. Our fix was to discriminate a link from other input by the common `https` header in links. 
@@ -60,7 +60,7 @@ This was my output from running the base MarkdownParse.java code on this file:
 We thus made the following changes to our code:
 
 >
-> ![bugfix3](codechange2.PNG)
+> ![bugfix3](codechange2.png)
 >
 
 * The **bug** in this case is that if `indexOf` cannot find the next `[`, `]`, `(`, or `)`, it'll return -1, which when incremented by 1 at the end of each loop will make currentIndex 0. This means that currentIndex will never exceed markdown.length (assuming the file is of length > 0), and the loop will continue indefinitely, producing the OutOfMemoryError we saw in the **output**. The failure-inducing input is missing brackets or parantheses, as that would cause closeParen to be -1 before the incrementer, causing the loop to run indefinitely. To fix this, we added a if statements to check if we would need to break out of the loop due to missing brackets or parantheses.
